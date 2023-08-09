@@ -1,7 +1,6 @@
 
 
 function Spa() {
-  const userName = "Calvin";
   return (
     <HashRouter>
       <div>
