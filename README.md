@@ -53,13 +53,6 @@ Open your browser and navigate to:
 arduino
 Copy code
 http://localhost:<desired_port>
-Security Considerations
-
-Ensure that sensitive Firebase configuration details are not exposed in client-side code. Follow best practices for securing sensitive information in a client-side application.
-
-Contributing
-
-If you'd like to contribute to this project, please follow the standard Git workflow:
 
 Fork the repository
 Create a new branch for your feature or bugfix
