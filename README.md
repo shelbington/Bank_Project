@@ -1,3 +1,6 @@
+markdown
+Copy code
+
 # BadBank Project
 
 ## Overview
@@ -29,4 +32,36 @@ BadBank is a simplified banking application that allows users to create accounts
 
 ```bash
 git clone <repository_url>
+Install Dependencies:
+Navigate to the project folder and run:
+
+bash
+Copy code
+npm install
+Configure Environment Variables:
+Create a .env file in the root directory and add the necessary environment variables:
+
+makefile
+Copy code
+MONGO_KEY=<your_mongodb_uri>
+PORT=<desired_port>
+PROJECT_ID=<firebase_project_id>
+PRIVATE_KEY_ID=<firebase_private_key_id>
+PRIVATE_KEY=<firebase_private_key>
+CLIENT_EMAIL=<firebase_client_email>
+CLIENT_ID=<firebase_client_id>
+AUTH_URI=<firebase_auth_uri>
+TOKEN_URI=<firebase_token_uri>
+AUTH_PROVIDER_X=<firebase_auth_provider_cert_url>
+CLIENT_X509=<firebase_client_cert_url>
+Start the Server:
+bash
+Copy code
+npm start
+Access the Application:
+Open your browser and navigate to:
+
+bash
+Copy code
+http://localhost:<desired_port>
 ```
