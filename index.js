@@ -28,7 +28,7 @@ async function verifyToken(req, res, next) {
 }
 
 // create user account
-app.get('/account/create/:name/:email/:password', function (req, res) {
+app.post('/account/create/:name/:email/:password', function (req, res) {
 
     // check if account exists
     dal.find(req.params.email).
