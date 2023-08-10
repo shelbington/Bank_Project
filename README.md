@@ -4,6 +4,8 @@
 
 BadBank is a simplified banking application that allows users to create accounts, view account details, and perform basic banking operations such as depositing and withdrawing amounts. The project utilizes technologies like Express.js, MongoDB, Firebase, and React to provide a complete user experience.
 
+Link to demo: https://badbankfinalprojectmit.herokuapp.com/#/
+
 ## Features
 
 - Account Creation: Users can create new accounts with a name, email, and password.
